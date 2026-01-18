@@ -15,3 +15,10 @@ curl -X POST http://localhost:8080/invocations \
   -H "Content-Type: application/json" \
   -d '{"prompt": "What is 2 + 2?"}'
 ```
+
+## Deploy
+
+```commandline
+agentcore configure --entrypoint multiagent-agentcore-runtime.py
+agentcore launch
+```
