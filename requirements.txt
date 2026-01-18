@@ -1,0 +1,4 @@
+strands-agents==1.22.0
+strands-agents-tools==0.2.19
+ollama==0.6.1
+bedrock-agentcore==1.2.0
